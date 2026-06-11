@@ -12,15 +12,16 @@
   "app": {
     "windows": [
       {
-  "title": "desktop-task",
-  "width": 280,
-  "height": 170,
-  "decorations": false,
-  "transparent": true,
-  "alwaysOnTop": false,
-  "resizable": false,
-  "label": "widget"
-},
+        "title": "desktop-task",
+        "width": 280,
+        "height": 170,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": false,
+        "resizable": false,
+        "label": "widget",
+        "visible": false
+      },
       {
   "title": "Task Manager",
   "width": 800,
@@ -30,7 +31,7 @@
   "resizable": true,
   "label": "main",
   "visible": false,
-  "url": "http://localhost:1420"
+  "url": "index.html"
 }
     ],
     "security": {
